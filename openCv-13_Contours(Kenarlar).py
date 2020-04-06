@@ -16,6 +16,7 @@ _,thresh = cv2.threshold(gray_image, 127, 255, cv2.THRESH_BINARY)
 contours,_= cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 
 """
+DrawContours
 1. Parametre --> image
 2. Parametre --> kenar koordinatları
 3. Parametre --> Nerelerin çizileceği

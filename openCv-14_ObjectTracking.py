@@ -26,8 +26,7 @@ while True:
     cv2.imshow("mask", mask)
     cv2.imshow("result", res)
     
-    k = cv2.waitKey(5) & 0xFF
-    if k== 26:
+    if cv2.waitKey(20) & 0xFF==ord('q'):
         break
 
 cv2.destroyAllWindows()

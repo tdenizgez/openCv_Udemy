@@ -30,3 +30,4 @@ cv2.circle(img, (x,y), 3, (0,0,255),-1)
 cv2.imshow("image",img)
 cv2.waitKey()
 cv2.destroyAllWindows()
+
